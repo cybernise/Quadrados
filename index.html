@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 2</title>
+</head>
+<body>
+
+    <style>
+
+        .container {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .box {
+            border: 1px solid rgb(0, 0, 0);
+            align-items: center;
+        }
+
+       .slidebar {
+            background-color: rgb(168, 221, 245);
+            flex-direction: column;
+            width: 100px;
+            height: 605px
+       }
+
+       .topo {
+            background-color: rgb(226, 235, 188);
+            flex-direction: row;
+            height: 50px;
+            width: 1070px;
+       }
+
+       .conteudo {
+            background-color: rgb(217, 253, 212);
+            width: 1070px;
+            height: 500px;
+       }
+
+       .rodape {
+            background-color: rgb(231, 166, 169);
+            width: 1070px;
+            height: 50px;
+       }
+
+       .alg {
+            display: flex;
+       }
+
+    </style>
+
+</head>
+<body>
+
+    <div class = "container">
+        <div class = "alg"> <div class = "box slidebar">Slidebar</div> 
+        <div> <div class = "box topo">Topo</div> 
+        <div class = "box conteudo">Conteúdo</div>
+        <footer> <div class = "box rodape">Rodapé</div> </footer>
+
+    </div>
+    
+</body>
+</html>
